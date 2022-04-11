@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 10px 10px;
+    background-color: white;
+}
+
+body {
+    width: 1500px;
+    font: sans-serif;
+    /* background-color: skyblue; */
+    background-color: rgb(187, 187, 172);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav{
+    margin-bottom: 20px;
+}
+
+.nav li {
+    list-style: none;    
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkslateblue;
+    transition:  0.2s;
+}
+
+.nav a:hover {
+    color: rgba(77, 77, 77, 0.781);
+    font-size: 25px;
+}
+
+/* main {
+    height: 400px
+} */
+
+main .container{
+    width: 1500px;
+    position: relative;
+}
+
+.login {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    background-color: aliceblue;
+    margin: 0 10px;
+    border-radius: 15px;
+}
+
+.introduction {
+    position: relative;
+    width: 1030px;
+    background-color: aliceblue;
+    margin: 0 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    top: 0;
+    left: 450px;
+}
+
+
+.login h1{
+    text-align: center;
+    background-color:skyblue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.login table{
+    margin-top: 20px;
+    border-spacing:10px 15px;
+}
+
+.login table input{
+    height: 25px;
+    text-align: center;
+    transition: 0.1s linear;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.063);
+    border-radius: 5px;
+}
+
+::placeholder {
+    font-size: 17px;
+}
+
+.login table input:hover {
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.login table .sumit {
+    font-size: 18px;
+    border-radius: 6px;
+    padding: 4px;
+    box-shadow: 2px 1px 10px 5px rgba(0, 0, 0, 0.048);
+    transition: 0.2s;
+}
+
+.login table .sumit:hover{
+    background-color: rgba(0, 0, 0, 0.315);
+    
+}
+
+.introduction h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color:skyblue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.sanpham img {
+    width: 200px;
+    margin: 10px 20px;
+}
+
+.sanpham table td {
+    font-size: 25px;
+}
+
+.sanpham table {
+    border-spacing: 20px 10px;
+}
+
+.sanpham table td {
+    text-align: justify;
+}
+
+.borrow_book {
+    font-size: 20px;
+    color: darkblue;
+    border-radius: 10px;
+    box-shadow: 5px 4px 10px 5px rgba(0, 0, 0, 0.215);
+    background-color: aliceblue;
+    padding: 7px;
+    transition: 0.2s;
+    cursor: pointer; 
+}
+
+.borrow_book:hover{
+    background-color: rgba(225, 225, 225, 0.577);
+}
+
+.back_head a{
+    position: relative;
+    top: 0;
+    left: 1300px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer {
+    background-color: rgba(0, 46, 37, 0.668);
+    min-height: 150px;
+}
+
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.icon i{
+    margin: 80px 40px;
+    cursor: pointer;
+    transition:  0.4s;
+}
+
+.icon i:hover{
+    color: rgba(0, 0, 0, 0.404);
+    font-size: 35px;
+}
+
+.term {
+    display: flex;
+    justify-content: space-between;
+}
+
+.term li {
+    list-style: none;
+    margin-left: 70px;
+    margin-right: 60px;
+    margin-top: 70px;
+}
+
+.term a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(224, 197, 197);
+    transition: 0.2s;
+}
+
+.term a:hover{
+    color: rgba(224, 197, 197, 0.508);
+}
